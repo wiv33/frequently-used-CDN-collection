@@ -22,29 +22,36 @@ ul li {
 }
 ul li a {
     display: block;
-    width: 50px;
-    height: 50px;
     background: #18191f;
-    line-height: 55px;
+    line-height: 4rem;
     text-align: center;
-    margin: 0 10px;
+    margin: 0 5px;
+    padding: 0 10px 0 10px;
     border-radius: 15px;
     box-shadow: -2px -2px 3px rgba(255, 255, 255, 0.05),
-                3px 3px 3px rgba(0, 0, 0, 0.2)
+    3px 3px 3px rgba(0, 0, 0, 0.2)
 }
-ul li a .fa {
+h2:hover {
+    color: #ffffff;
+    text-shadow: 0 0 15px #ffffff;
+}
+ul li a .fa, h2 {
     font-size: 22px;
     color: #555;
 }
 ul li a:hover .fa {
-    color: #00f3ff;
-    text-shadow: 0 0 15px #00f3ff;
-}
-ul:nth-child(2) li a:hover .fa {
     color: #f00;
     text-shadow: 0 0 15px #f00;
 }
-ul:nth-child(3) li a:hover .fa {
+ul:nth-of-type(2) li a:hover .fa {
+    color: #00f3ff;
+    text-shadow: 0 0 15px #00f3ff;
+}
+ul:nth-of-type(3) li a:hover .fa {
     color: #0f0;
     text-shadow: 0 0 15px #0f0;
+}
+ul:nth-of-type(4) li a:hover .fa {
+    color: #e68e22;
+    text-shadow: 0 0 15px #e68e22;
 }
