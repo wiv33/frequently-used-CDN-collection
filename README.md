@@ -1,0 +1,1 @@
+# frequently-used-CDN-collection
